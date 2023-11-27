@@ -116,3 +116,7 @@ minusButtons.forEach((button, index) => {
         } 
     });
 });
+
+// STEP 1: const data = JSON.stringify(shoppingCart);  // data = """{"Flower 1":3,"Flower 2":3,"Flower 6":3}"""
+// STEP 2: tg.sendData(data);
+// STEP 3: console.log(data);

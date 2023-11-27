@@ -1,3 +1,5 @@
+const tg = window.Telegram.WebApp;
+
 const flowers = [
     {
         name: "Flower 1",

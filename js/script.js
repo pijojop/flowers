@@ -114,31 +114,3 @@ minusButtons.forEach((button, index) => {
         } 
     });
 });
-
-
-// const add = document.querySelector(".flower-buttons_add");
-// const plus = document.querySelector(".flower-buttons_plus");
-// const counter = document.querySelector(".flower-buttons_counter");
-// const minus = document.querySelector(".flower-buttons_minus");
-
-// add.addEventListener("click", () => {
-//     add.style.display = "none";
-//     plus.style.display = "inline-block";
-//     counter.style.display = "inline-block";
-//     minus.style.display = "inline-block";
-//     counter.textContent = "1";
-// });
-
-// plus.addEventListener("click", () => {
-//     counter.textContent = Number(counter.textContent) + 1;
-// });
-
-// minus.addEventListener("click", () => {
-//     counter.textContent = Number(counter.textContent) - 1;
-//     if (Number(counter.textContent) == 0) {
-//         add.style.display = "inline-block";
-//         plus.style.display = "none";
-//         counter.style.display = "none";
-//         minus.style.display = "none ";
-//     }
-// });

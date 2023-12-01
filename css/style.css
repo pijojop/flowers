@@ -5,6 +5,23 @@ body {
     background-color: #52b235;
 }
 
+#save {
+    display: none;
+    margin: 10px;
+    text-align: center;
+}
+
+#save button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
 .flower-grid {
     display: grid;
     grid-template-columns: 200px 200px;

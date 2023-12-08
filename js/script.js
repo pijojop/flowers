@@ -81,7 +81,9 @@ addButtons.forEach((button, index) => {
         counterButtons[index].style.display = "inline-block";
 
         const name = flowers[index].name;
+        const price = flowers[index].price;
         shoppingCart[name] = 1;
+        shoppingCart[name] = [1, price];
         saveButton.style.display = "block";
     });
 });
@@ -93,7 +95,7 @@ plusButtons.forEach((button, index) => {
         let tagP = divsFlower[index].children[1].querySelector("p");
         tagP = tagP.textContent;
         tagP = tagP.split(" · ");
-        shoppingCart[tagP[0]] += 1;
+        shoppingCart[tagP[0]][0] += 1;
     });
 });
 
